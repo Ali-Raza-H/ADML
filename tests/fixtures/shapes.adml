@@ -1,0 +1,34 @@
+@version(1.0)
+
+slide("shapes") {
+    background: #ffffff
+    
+    shape(rectangle) {
+        position: top-left(margin=100)
+        width: 200
+        height: 100
+        fill: #ff0000
+    }
+    
+    shape(circle) {
+        position: top-right(margin=100)
+        width: 150
+        height: 150
+        fill: #00ff00
+    }
+    
+    shape(ellipse) {
+        position: bottom-left(margin=100)
+        width: 200
+        height: 100
+        fill: #0000ff
+    }
+    
+    shape(line) {
+        position: bottom-right(margin=100)
+        width: 200
+        height: 200
+        stroke_width: 5
+        stroke_colour: #000000
+    }
+}

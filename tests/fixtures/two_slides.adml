@@ -1,0 +1,37 @@
+@version(1.0)
+
+slide("one") {
+    background: #222222
+    text("Heading") {
+        size: 72pt
+        color: #ffffff
+        position: center-top(margin=100)
+    }
+    text("Subtitle") {
+        size: 32pt
+        color: #aaaaaa
+        position: center
+    }
+    shape(rectangle) {
+        width: 200
+        height: 50
+        fill: #ff0000
+        position: bottom-right(margin=50)
+    }
+}
+
+slide("two") {
+    background: #ffffff
+    list(bullet) {
+        position: center-left(margin=100)
+        size: 24pt
+        item("First item")
+        item("Second item")
+    }
+    shape(circle) {
+        width: 300
+        height: 300
+        fill: #0000ff
+        position: center-right(margin=100)
+    }
+}

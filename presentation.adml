@@ -1,0 +1,13 @@
+@version(1.0)
+@canvas(type=presentation, width=1920, height=1080, units=px)
+
+slide("hero") {
+  background: #0f0f1a
+
+  text("AutoDesign Markup Language") {
+    font: "Inter" bold
+    size: 72
+    color: #ffffff
+    position: center
+  }
+}

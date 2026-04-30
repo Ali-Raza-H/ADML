@@ -1,0 +1,11 @@
+@version(1.0)
+@canvas(width=1920, height=1080)
+
+slide("simple") {
+    background: #ffffff
+    text("Hello World") {
+        position: center
+        size: 48px
+        color: #000000
+    }
+}
